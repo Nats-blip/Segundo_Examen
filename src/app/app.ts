@@ -1,12 +1,14 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
+  standalone: true,
+  imports: [CommonModule, RouterOutlet],
+  templateUrl: './app.html', // Asegúrate que este archivo existe
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('exa');
+  title = 'Segundo_Examen';
 }
