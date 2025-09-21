@@ -8,6 +8,20 @@ Template usado: "Business Frontpage" - StartBootstrap (MIT).
 Fuente: https://startbootstrap.com/template/business-frontpage
 Licencia: MIT (ver LICENSE del template).
 
+# Offline
+
+- ✅ **PWA Offline**: La home funciona completamente sin conexión
+- ✅ **Precaching**: HTML, CSS, JS e imágenes clave cacheadas
+- ✅ **Service Worker**: Configurado y funcionando correctamente
+- ✅ **SPA Routing**: Todas las rutas redirigen al index.html
+
+### Pruebas realizadas:
+
+1. **Modo Online**: Carga inicial y caching de recursos
+2. **Modo Offline**: ✅ Página funciona completamente sin internet
+3. **Recarga offline**: ✅ Múltiples recargas exitosas
+4. **Differentes rutas**: ✅ Routing de Angular funcionando
+
 # Exa 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
