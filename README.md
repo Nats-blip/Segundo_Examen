@@ -2,7 +2,13 @@
  
 CSS framework elegido: Bootstrap 
 
-# Exa
+# Template
+
+Template usado: "Business Frontpage" - StartBootstrap (MIT).
+Fuente: https://startbootstrap.com/template/business-frontpage
+Licencia: MIT (ver LICENSE del template).
+
+# Exa 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
 
