@@ -1,10 +1,12 @@
 {
-  "name": "exa",
-  "short_name": "exa",
+   "name": "Start Bootstrap",
+  "short_name": "StartBootstrap",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
-  "icons": [
+  "scope": "/Segundo_Examen/",
+  "start_url": "/Segundo_Examen/",
+  "icons":  [
     {
       "src": "icons/icon-72x72.png",
       "sizes": "72x72",

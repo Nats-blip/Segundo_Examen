@@ -1,18 +1,17 @@
 {
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
-  "index": "/index.html",
+  "index": "/Segundo_Examen/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "/favicon.ico",
-          "/index.csr.html",
-          "/index.html",
-          "/manifest.webmanifest",
-          "/*.css",
-          "/*.js"
+          "/Segundo_Examen/favicon.ico",
+          "/Segundo_Examen/index.html",
+          "/Segundo_Examen/manifest.webmanifest",
+          "/Segundo_Examen/*.css",
+          "/Segundo_Examen/*.js"
         ]
       }
     },
@@ -22,7 +21,8 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "/Segundo_Examen/assets/**",
+          "/Segundo_Examen/media/**"
         ]
       }
     }
