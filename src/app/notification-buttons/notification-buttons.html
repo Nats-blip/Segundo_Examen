@@ -1,0 +1,36 @@
+<div class="notification-buttons my-4">
+  <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+    <!-- Botón Permitir Notificaciones -->
+    <button 
+      class="btn btn-primary me-md-2" 
+      (click)="requestPermission()"
+      [disabled]="!isSupported || permission === 'granted'">
+      <i class="bi bi-bell-fill me-2"></i>
+      {{ getButtonText() }}
+    </button>
+
+    <!-- Botón Probar Notificación -->
+    <button 
+      class="btn btn-outline-secondary" 
+      (click)="testNotification()"
+      [disabled]="permission !== 'granted'">
+      <i class="bi bi-chat-square-text-fill me-2"></i>
+      Probar Notificación
+    </button>
+  </div>
+
+  <!-- Estado actual -->
+  <div class="text-center mt-3">
+    <small class="text-muted">
+      Estado: 
+      <span [ngClass]="{
+        'text-success': permission === 'granted',
+        'text-warning': permission === 'default',
+        'text-danger': permission === 'denied'
+      }">
+        {{ getPermissionText() }}
+      </span>
+      {{ !isSupported ? ' (No soportado en este navegador)' : '' }}
+    </small>
+  </div>
+</div>

@@ -10,5 +10,11 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './navigation.scss'
 })
 export class Navigation {
+  isMenuCollapsed = true;
+  
   constructor(public router: Router) {}
+
+  toggleMenu() {
+    this.isMenuCollapsed = !this.isMenuCollapsed;
+  }
 }
