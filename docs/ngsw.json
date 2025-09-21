@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1758483368089,
-  "index": "/index.csr.html",
+  "timestamp": 1758483812497,
+  "index": "/Segundo_Examen/index.csr.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/favicon.ico",
-        "/index.csr.html",
-        "/index.html",
-        "/main-ZFT2GXZH.js",
-        "/manifest.webmanifest",
-        "/scripts-X2LK7D4J.js",
-        "/styles-5INURTSO.css"
+        "/Segundo_Examen/favicon.ico",
+        "/Segundo_Examen/index.csr.html",
+        "/Segundo_Examen/index.html",
+        "/Segundo_Examen/main-ZFT2GXZH.js",
+        "/Segundo_Examen/manifest.webmanifest",
+        "/Segundo_Examen/scripts-X2LK7D4J.js",
+        "/Segundo_Examen/styles-5INURTSO.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/icons/icon-128x128.png",
-        "/icons/icon-144x144.png",
-        "/icons/icon-152x152.png",
-        "/icons/icon-192x192.png",
-        "/icons/icon-384x384.png",
-        "/icons/icon-512x512.png",
-        "/icons/icon-72x72.png",
-        "/icons/icon-96x96.png"
+        "/Segundo_Examen/icons/icon-128x128.png",
+        "/Segundo_Examen/icons/icon-144x144.png",
+        "/Segundo_Examen/icons/icon-152x152.png",
+        "/Segundo_Examen/icons/icon-192x192.png",
+        "/Segundo_Examen/icons/icon-384x384.png",
+        "/Segundo_Examen/icons/icon-512x512.png",
+        "/Segundo_Examen/icons/icon-72x72.png",
+        "/Segundo_Examen/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/index.csr.html": "86e291e284e931b9ce029f419052f89533fe6d9f",
-    "/index.html": "723a4ff9e825d495e3911565d8f2a35f678c2513",
-    "/main-ZFT2GXZH.js": "3831767a9b0d0f6a2622415b5aff78368435a5d7",
-    "/manifest.webmanifest": "f8ccdfdc1e580dfeb4889e5d15c9785137cb6c6b",
-    "/scripts-X2LK7D4J.js": "d81de40058e726ba69b63d28e2e124ee74fb85bc",
-    "/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/Segundo_Examen/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/Segundo_Examen/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/Segundo_Examen/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/Segundo_Examen/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/Segundo_Examen/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/Segundo_Examen/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/Segundo_Examen/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/Segundo_Examen/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/Segundo_Examen/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/Segundo_Examen/index.csr.html": "2b7088afe5f9cbbd1b0a06079928b27bc0b31c05",
+    "/Segundo_Examen/index.html": "0833a3b146571ec8799d5cb58d4037b50d12ba84",
+    "/Segundo_Examen/main-ZFT2GXZH.js": "3831767a9b0d0f6a2622415b5aff78368435a5d7",
+    "/Segundo_Examen/manifest.webmanifest": "f8ccdfdc1e580dfeb4889e5d15c9785137cb6c6b",
+    "/Segundo_Examen/scripts-X2LK7D4J.js": "d81de40058e726ba69b63d28e2e124ee74fb85bc",
+    "/Segundo_Examen/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {
