@@ -3,21 +3,23 @@
 <div class="container my-5">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mb-4">Demonstración de Componentes UI</h1>
-      <p class="lead mb-5">Esta página muestra componentes reutilizables del template con diseño responsive.</p>
+      <header>
+        <h1 class="display-4 mb-4">Demonstración de Componentes UI</h1>
+        <p class="lead mb-5">Esta página muestra componentes reutilizables del template con diseño responsive.</p>
+      </header>
     </div>
   </div>
 
   <!-- Sección 1: Sistema de Grid Responsive -->
-  <section class="mb-5">
-    <h2 class="mb-4">1. Sistema de Grid Responsive</h2>
+  <section class="mb-5" aria-labelledby="grid-heading">
+    <h2 id="grid-heading" class="mb-4">1. Sistema de Grid Responsive</h2>
     <p>El sistema de grid de Bootstrap se adapta a diferentes tamaños de pantalla.</p>
     
     <div class="row mb-4">
       <div class="col-md-4 mb-3">
         <div class="card bg-primary text-white">
           <div class="card-body">
-            <h5 class="card-title">Columna 1</h5>
+            <h3 class="card-title h5">Columna 1</h3>
             <p class="card-text">En móvil: 100% de ancho. En desktop: 33.3%</p>
           </div>
         </div>
@@ -41,18 +43,19 @@
     </div>
   </section>
 
-  <!-- Sección 2: Cards -->
-  <section class="mb-5">
-    <h2 class="mb-4">2. Componente Cards</h2>
+<!-- Sección 2: Cards -->
+  <section class="mb-5" aria-labelledby="cards-heading">
+    <h2 id="cards-heading" class="mb-4">2. Componente Cards</h2>
     <p>Las cards son componentes versátiles y personalizables.</p>
     
     <div class="row">
-      <div class="col-lg-3 col-md-6 mb-4" *ngFor="let card of sampleCards">
+      <div class="col-lg-3 col-md-6 mb-4" *ngFor="let card of sampleCards; let i = index">
         <div class="card h-100">
           <div class="card-body">
-            <h5 class="card-title">{{ card.title }}</h5>
+            <h3 class="card-title h5">{{ card.title }}</h3>
             <p class="card-text">{{ card.text }}</p>
-            <button class="btn" [class]="'btn-' + card.type">
+            <button class="btn" [class]="'btn-' + card.type" 
+                    [attr.aria-label]="'Acción para ' + card.title">
               {{ card.buttonText }}
             </button>
           </div>
@@ -62,22 +65,22 @@
   </section>
 
   <!-- Sección 3: Botones -->
-  <section class="mb-5">
-    <h2 class="mb-4">3. Variedad de Botones</h2>
+  <section class="mb-5" aria-labelledby="buttons-heading">
+    <h2 id="buttons-heading" class="mb-4">3. Variedad de Botones</h2>
     <p>Diferentes estilos y estados de botones.</p>
     
     <div class="row mb-4">
       <div class="col-12">
-        <h5>Estilos de botones:</h5>
-        <button type="button" class="btn btn-primary m-1">Primary</button>
-        <button type="button" class="btn btn-secondary m-1">Secondary</button>
-        <button type="button" class="btn btn-success m-1">Success</button>
-        <button type="button" class="btn btn-danger m-1">Danger</button>
-        <button type="button" class="btn btn-warning m-1">Warning</button>
-        <button type="button" class="btn btn-info m-1">Info</button>
-        <button type="button" class="btn btn-light m-1">Light</button>
-        <button type="button" class="btn btn-dark m-1">Dark</button>
-        <button type="button" class="btn btn-link m-1">Link</button>
+        <h3 class="h5">Estilos de botones:</h3>
+        <button type="button" class="btn btn-primary m-1" aria-label="Botón primary">Primary</button>
+        <button type="button" class="btn btn-secondary m-1" aria-label="Botón secondary">Secondary</button>
+        <button type="button" class="btn btn-success m-1" aria-label="Botón success">Success</button>
+        <button type="button" class="btn btn-danger m-1" aria-label="Botón danger">Danger</button>
+        <button type="button" class="btn btn-warning m-1" aria-label="Botón warning">Warning</button>
+        <button type="button" class="btn btn-info m-1" aria-label="Botón info">Info</button>
+        <button type="button" class="btn btn-light m-1" aria-label="Botón light">Light</button>
+        <button type="button" class="btn btn-dark m-1" aria-label="Botón dark">Dark</button>
+        <button type="button" class="btn btn-link m-1" aria-label="Botón link">Link</button>
       </div>
     </div>
     
@@ -101,11 +104,11 @@
     </div>
   </section>
 
-  <!-- Sección 4: Navbar (ya incluido pero mostramos opciones) -->
-  <section class="mb-5">
-    <h2 class="mb-4">4. Componente Navigation</h2>
+  <!-- Sección 4: Navbar -->
+  <section class="mb-5" aria-labelledby="navbar-heading">
+    <h2 id="navbar-heading" class="mb-4">4. Componente Navigation</h2>
     <p>La barra de navegación responsive está visible en la parte superior de la página.</p>
-    <div class="alert alert-info">
+    <div class="alert alert-info" role="alert">
       <strong>Nota:</strong> El componente de navegación ya está implementado en la parte superior de esta página.
       Es completamente responsive y se colapsa en un menú hamburguesa en dispositivos móviles.
     </div>

@@ -5,13 +5,13 @@ import { UiComponent } from './ui/ui';
 export const routes: Routes = [
     {
         path: '',
-        component: Home, // Solo UN componente por ruta
-        title: 'Inicio'
+        component: Home,
+        title: 'Inicio - Start Bootstrap'
     },
     {
-        path: 'ui', // Nueva ruta
+        path: 'ui',
         component: UiComponent,
-        title: 'Componentes UI'
+        title: 'Componentes UI - Demo'
     },
     {
         path: '**',
