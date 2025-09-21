@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        // Redirigir todas las rutas al index.html principal
+        sessionStorage.redirect = location.pathname + location.search;
+        window.location.replace('/Segundo_Examen/');
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/Segundo_Examen/">
+    </noscript>
+</head>
+<body>
+    <noscript>
+        <h1>Redirecting to Homepage</h1>
+        <p>If you are not redirected automatically, 
+           <a href="/Segundo_Examen/">click here</a>.
+        </p>
+    </noscript>
+</body>
+</html>
